@@ -42,8 +42,8 @@ function totalPrice(price) {
 totalPrice(100);
 
 function writeMessage(name, material, size, note) {
-  const message = name + ' tiene un ' + material + ' pequeño ' + size + ', de 15cm ' + note + ', es fragil ';
+  const message = name + ' ha pedido una caja de ' + material + ' de tamaño ' + size + '. ' + note + ', es fragil ';
   console.log(message);
 }
 
-writeMessage('xavier', 'movil', 'standar', 'cuidado');
+writeMessage('xavier', 'metal', 'standard', 'Cuidado');
